@@ -1,0 +1,62 @@
+.parg-top{
+    align-items: center;
+    margin: 10px auto;
+    color: white;
+}
+.search{
+    height: 100%;
+}
+.wit{
+    width: 100%;
+}
+.input-group{
+        position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+}
+.text-black{
+    color: black;
+    font-weight: bold;
+}
+
+.size{
+    width: 80px;
+}
+.fa.fa-heart-o{
+    font-size: 22px;
+    margin:auto 10px;
+}
+
+.fa.fa-shopping-cart{
+    font-size: 22px;
+    margin:auto 10px; 
+}
+.line {
+    content: "";
+    position: absolute;
+    background-color: #b4b2b2;
+    height: 1px;
+    border-radius: 14px;
+    top: 35px;
+    width: 75%;
+    left: 10%;
+}
+
+ul li{
+    list-style: none;
+     margin-bottom: 10px;
+    
+}
+ul li a{
+    color: #212529;
+    text-decoration: none;
+   
+}
+
+@media(max-width:400px){
+    .parg-top{
+        font-size: 16px;
+    }
+}
