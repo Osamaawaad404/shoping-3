@@ -1,62 +1,94 @@
-.parg-top{
-    align-items: center;
-    margin: 10px auto;
-    color: white;
-}
-.search{
-    height: 100%;
-}
-.wit{
-    width: 100%;
-}
-.input-group{
-        position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-
-}
-.text-black{
-    color: black;
-    font-weight: bold;
+body{
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
 }
 
-.size{
-    width: 80px;
+.bg-none{
+    background: none;
+   
 }
-.fa.fa-heart-o{
-    font-size: 22px;
-    margin:auto 10px;
-}
+:root{
+    --color-black : black;
+    --color-parper :  #DB4444;
 
-.fa.fa-shopping-cart{
-    font-size: 22px;
-    margin:auto 10px; 
 }
-.line {
-    content: "";
-    position: absolute;
-    background-color: #b4b2b2;
-    height: 1px;
-    border-radius: 14px;
-    top: 35px;
-    width: 75%;
-    left: 10%;
+.color-perpar{
+    color: var(--color-parper);
+}
+.bg-black{
+    color: var(--color-black);
+}
+.color-black{
+    color: var(--color-black);
 }
 
 ul li{
     list-style: none;
-     margin-bottom: 10px;
-    
 }
-ul li a{
-    color: #212529;
-    text-decoration: none;
+.borde{
+    width: 15px;
+    height: 30px;
+    background-color: var(--color-parper);
+    display: flex;
+    border-radius: 15%;
+    align-items: center;
+}
+.line{
+ 
+    height: 2px;
+    background-color: #afaaaa;
+    position: absolute;
+}
+
+.size{
+    line-height: 2.5;
+    margin-top: 20px;
+    border-bottom: none;
+}
+
+.aside-right{
+    background-image: url(../image/hero_endframe__cvklg0xk3w6e_large\ 2.png);
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y:bottom ;
+}
+.aside-right-2{
+    background-image: url(../image/2.PNG);
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y:bottom ;
+}
+.aside-right-3{
+    background-image: url(../image/3.PNG);
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y:bottom ;
+}
+.aside-right-4{
+    background-image: url(../image/4);
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y:bottom ;
+}
+.aside-right-5{
+    background-image: url(../image/5.PNG);
+    background-repeat: no-repeat;
+    background-position-x: right ;
+    background-position-y:bottom ;
+}
+.max{
+    max-width:220px;
    
 }
 
-@media(max-width:400px){
-    .parg-top{
-        font-size: 16px;
-    }
+
+.height{
+    line-height: 1.5;
+    font-size: 35px;
+   
 }
+
+.letter-spacting{
+    letter-spacing: 3px;
+}
+
