@@ -36,3 +36,27 @@ new Autocomplete(basicAutocomplete, {
 import { Input, initMDB } from "mdb-ui-kit";
 
 initMDB({ Input });
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Handle heart icon click
+  document.querySelectorAll('.fa-heart').forEach(function (icon) {
+      icon.addEventListener('click', function () {
+          // Toggle the 'active' class to change the heart color
+          this.classList.toggle('active');
+      });
+  });
+
+  // Handle eye icon click
+  document.querySelectorAll('.eye-icon').forEach(function (icon) {
+      icon.addEventListener('click', function () {
+          // Toggle the visibility of the corresponding description
+          const descriptionId = 'description' + this.getAttribute('data-id').replace('eye', '');
+          const description = document.getElementById(descriptionId);
+          if (description) {
+              description.style.display = (description.style.display === 'none' || description.style.display === '') ? 'block' : 'none';
+          }
+      });
+  });
+});

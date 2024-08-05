@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Image Transition</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .box {
+            position: relative;
+            overflow: hidden;
+            /* Hide overflowing content */
+        }
+
+        .img-container {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            /* Adjust height as needed */
+        }
+
+        .img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.5s ease-in-out;
+            /* Smooth transition */
+        }
+
+        .img-container img.back {
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .box:hover .img-container img.front {
+            opacity: 0;
+            /* Hide the front image */
+        }
+
+        .box:hover .img-container img.back {
+            opacity: 1;
+            /* Show the back image */
+        }
+
+        .icon-card {
+            display: inline-block;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 24px;
+        }
+
+        .fa-heart {
+            color: black;
+        }
+
+        .fa-heart.active {
+            color: red;
+        }
+
+        .description {
+            display: none;
+        }
+
+        .box:hover .description {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="col-md-6 mb-3 text-center col-lg-3 col-sm-6">
+        <div class="box bg-white">
+            <div class="img-container">
+                <img src="image/img-3.webp" alt="Front Image" class="front">
+                <img src="image/img-3-2.webp" alt="Back Image" class="back">
+            </div>
+            <div class="m-0 border-0 position-relative">
+                <div class="icon-card fa-heart" id="heartIcon">
+                    <i class="fa fa-heart"></i>
+                </div>
+                <div class="icon-card eye-icon" id="eyeIcon">
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div class="sale-badge fw-normal">- 40%</div>
+                <a href="#" class="text-light w-100 bg-black pos">Add card</a>
+            </div>
+            <div class="thumb-content text-start">
+                <h6 class="mb-3 color-black">HAVIT HV-G92 Gamepad</h6>
+                <p class="item-price">
+                    <b class="color-perpar me-2">$260.00</b>
+                    <strike>$360.00</strike>
+                </p>
+                <div class="star-rating">
+                    <ul class="list-inline">
+                        <li class="list-inline-item me-0"><i class="fa fa-star color-y"></i></li>
+                        <li class="list-inline-item me-0"><i class="fa fa-star color-y"></i></li>
+                        <li class="list-inline-item me-0"><i class="fa fa-star color-y"></i></li>
+                        <li class="list-inline-item me-0"><i class="fa fa-star color-y"></i></li>
+                        <li class="list-inline-item me-0">
+                            <i class="fa fa-star color-y"></i>
+                            <span class="sp" style="color: grey;">(65)</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="description" id="description">
+                    <p>This is a detailed description or preview of the product that can be toggled visible or hidden.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Handle heart icon click
+            document.querySelectorAll('.fa-heart').forEach(function (icon) {
+                icon.addEventListener('click', function () {
+                    // Toggle the 'active' class to change the heart color
+                    this.classList.toggle('active');
+                });
+            });
+
+            // Handle eye icon click
+            document.querySelectorAll('.eye-icon').forEach(function (icon) {
+                icon.addEventListener('click', function () {
+                    // Redirect to the URL specified in data-url
+                    const url = this.getAttribute('data-url');
+                    if (url) {
+                        window.location.href = url;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
