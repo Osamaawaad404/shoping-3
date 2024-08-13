@@ -1,33 +1,38 @@
-body{
+body {
     box-sizing: border-box;
     font-family: "Lobster", sans-serif;
 }
 
-.bg-none{
+.bg-none {
     background: none;
-   
+
 }
-:root{
-    --color-black : black;
-    --color-parper :  #DB4444;
-    --text-foger :255,255,255;
-    --color-y:rgba(255, 173, 51, 1);
+
+:root {
+    --color-black: black;
+    --color-parper: #DB4444;
+    --text-foger: 255, 255, 255;
+    --color-y: rgba(255, 173, 51, 1);
     ;
 }
-.color-perpar{
+
+.color-perpar {
     color: var(--color-parper);
 }
-.bg-black{
-    color: var(--color-black);
-}
-.color-black{
+
+.bg-black {
     color: var(--color-black);
 }
 
-ul li{
+.color-black {
+    color: var(--color-black);
+}
+
+ul li {
     list-style: none;
 }
-.borde{
+
+.borde {
     width: 15px;
     height: 30px;
     background-color: var(--color-parper);
@@ -35,81 +40,100 @@ ul li{
     border-radius: 15%;
     align-items: center;
 }
-.line{
- 
+
+.line {
+
     height: 2px;
     background-color: #afaaaa;
     position: absolute;
 }
 
-.size{
+.size {
     line-height: 2.5;
     margin-top: 20px;
     border-bottom: none;
 }
+
 /* start leading  */
 
-.aside-right{
+.aside-right {
     background-image: url(../image/hero_endframe__cvklg0xk3w6e_large\ 2.png);
     background-repeat: no-repeat;
-    background-position-x: right ;
-    background-position-y:bottom ;
+    background-position-x: right;
+    background-position-y: bottom;
 }
-.aside-right-2{
-    background-image: url(../image/3.PNG);
-    background-repeat: no-repeat;
-    background-position-x: right ;
-  background-size: contain;
-  background-position-y:center ;
-  max-width: 100%;
 
- 
+.aside-right-2 {
+    background-image: url(../image/img-2.jpeg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    background-position-y: center;
+    max-width: 100%;
+
+
 }
-.aside-right-3{
+
+.aside-right-3 {
     background-image: url(../image/ducati-panigale-v2-3840x2160-17581.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: right ;
-    background-position-y:bottom ;
-}
-.aside-right-4{
-    background-image: url(../image/Capture.PNG);
-    background-repeat: no-repeat;
-    background-position-x: right ;
-    background-position-y:bottom ;
-    background-size: contain;
-}
-.aside-right-5{
-    background-image: url(../image/5.PNG);
-    background-repeat: no-repeat;
-    background-position-x: right ;
-    background-position-y:bottom ;
-}
-.max{
-    max-width:290px;
-   
-}
-.mex{
-    max-width: 330px;
-}
-.color-y{
-color: var(--color-y);
-}
-.bg-kkk{
-    background-color: #f7f7f7;
-}
-.text-foger{
-    color: var(--text-foger),0.6;
+    background-position-x: right;
+    background-position-y: bottom;
 }
 
-.height{
+.aside-right-4 {
+    background-image: url(../image/Capture.PNG);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: contain;
+}
+
+.aside-right-5 {
+    background-image: url(../image/5.PNG);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.max {
+    max-width: 290px;
+
+}
+
+.mex {
+    max-width: 330px;
+}
+
+.color-y {
+    color: var(--color-y);
+}
+
+.bg-kkk {
+    background-color: #f7f7f7;
+}
+
+.text-foger {
+    color: var(--text-foger), 0.6;
+}
+
+.height {
     line-height: 1.5;
     font-size: 35px;
-   
+
 }
+
 /* End leading  */
 /* Start Card 1   */
-.section div .img-1,.section-2  .img-2 ,.section-3 .img-3,.section-4 .img-4 {
+.section div .img-1,
+.section-2 .img-2,
+.section-3 .img-3,
+.section-4 .img-4,
+.section div .img-5,
+.section-2 .img-6,
+.section-3 .img-7,
+.section-4 .img-8 {
     margin-bottom: 25px;
     max-width: 100%;
     height: 306px;
@@ -117,26 +141,27 @@ color: var(--color-y);
 
 }
 
-.letter-spacting{
+.letter-spacting {
     letter-spacing: 3px;
 }
-.sdad{
+
+.sdad {
     overflow: hidden;
 }
 
 
-.img-1{
+.img-1 {
     background-image: url(../image/orginal-smart-watch.webp);
     background-repeat: no-repeat;
     background-size: contain;
     margin-bottom: 25px;
     max-width: 100%;
     height: auto;
- 
+
     background-position: center;
 }
 
-.img-2{
+.img-2 {
     background-image: url(../image/card-2.webp);
     background-repeat: no-repeat;
     background-size: contain;
@@ -146,8 +171,9 @@ color: var(--color-y);
     background-position: center;
 
 
-    
+
 }
+
 .project-overlay .img-4 {
     position: absolute;
     top: 0;
@@ -158,7 +184,7 @@ color: var(--color-y);
 }
 
 
-.img-3{
+.img-3 {
     background-image: url(../image/img-3.webp);
     background-repeat: no-repeat;
     background-size: contain;
@@ -168,9 +194,10 @@ color: var(--color-y);
     background-position: center;
 
 
-    
+
 }
-.img-4{
+
+.img-4 {
     background-image: url(../image/img-4.webp);
     background-repeat: no-repeat;
     background-size: contain;
@@ -178,28 +205,67 @@ color: var(--color-y);
     max-width: 100%;
     height: auto;
     background-position: center;
+}
 
-    
+.img-5 {
+    background-image: url(../image/img-5-2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.img-6 {
+    background-image: url(../image/img-6-2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.img-7 {
+    background-image: url(../image/img-7-2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.img-8 {
+    background-image: url(../image/img-8.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
 }
 
 /* Ensure the container is positioned relatively */
 
 
 
-.pos{
-position: absolute;
-bottom: 0;
-max-width: 100%;
-left: 0;
-height: 12%;
-align-items: center;
-display: none;
-justify-content: center;
-opacity: 0;
+.pos {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    left: 0;
+    height: 12%;
+    align-items: center;
+    display: none;
+    justify-content: center;
+    opacity: 0;
 
 
 }
- .section div .img-1:hover .pos{
+
+.section div .img-1:hover .pos {
     position: absolute;
     bottom: 0;
     max-width: 100%;
@@ -214,7 +280,7 @@ opacity: 0;
 }
 
 
-.section-2  .img-2:hover .pos{
+.section-2 .img-2:hover .pos {
     position: absolute;
     bottom: 0;
     max-width: 100%;
@@ -227,7 +293,8 @@ opacity: 0;
 
 
 }
-.section-3  .img-3:hover .pos{
+
+.section-3 .img-3:hover .pos {
     position: absolute;
     bottom: 0;
     max-width: 100%;
@@ -240,7 +307,8 @@ opacity: 0;
 
 
 }
-.section-4  .img-4:hover .pos{
+
+.section-4 .img-4:hover .pos {
     position: absolute;
     bottom: 0;
     max-width: 100%;
@@ -253,6 +321,7 @@ opacity: 0;
 
 
 }
+
 .img-1 {
     position: relative;
 }
@@ -260,22 +329,29 @@ opacity: 0;
 /* Transition properties for the link */
 a.text-light {
     /* Make the link a block element for full-width */
-    background-color: black; /* Default background color */
-    color: lightgray; /* Default text color */
+    background-color: black;
+    /* Default background color */
+    color: lightgray;
+    /* Default text color */
     /* Adjust padding as needed */
-    text-decoration: none; /* Remove underline from the link */
+    text-decoration: none;
+    /* Remove underline from the link */
     transition: background-color 0.5s ease, color 0.5s ease, opacity 0.5s ease;
-     display: flex;
-  
+    display: flex;
+
 }
 
 /* Hover effect for the link */
 a.text-light:hover {
-    background-color: #333; /* Darker background on hover */
-    color: #fff; /* Change text color on hover */
-  /* Slightly scale up the link */
-    opacity: 0.9; /* Slightly reduce opacity for a subtle effect */
+    background-color: #333;
+    /* Darker background on hover */
+    color: #fff;
+    /* Change text color on hover */
+    /* Slightly scale up the link */
+    opacity: 0.9;
+    /* Slightly reduce opacity for a subtle effect */
 }
+
 /* Ensure the container is positioned relatively */
 .img-1 {
     position: relative;
@@ -284,8 +360,10 @@ a.text-light:hover {
 /* Position icons in the top-right corner */
 .icon-card {
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    right: 10px; /* Adjust as needed */
+    top: 10px;
+    /* Adjust as needed */
+    right: 10px;
+    /* Adjust as needed */
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
@@ -298,13 +376,16 @@ a.text-light:hover {
 /* Position the eye icon */
 .eye-icon {
     top: 45px;
-    right: 10px; /* Adjust to position it next to the heart icon */
+    right: 10px;
+    /* Adjust to position it next to the heart icon */
 }
 
 /* Hover effects for icons */
 .icon-card:hover {
-    transform: scale(1.2); /* Slightly scale up the icon */
-    opacity: 0.8; /* Slightly reduce opacity */
+    transform: scale(1.2);
+    /* Slightly scale up the icon */
+    opacity: 0.8;
+    /* Slightly reduce opacity */
 }
 
 
@@ -336,13 +417,14 @@ a.text-light:hover {
     top: 0;
     left: 0;
     max-width: max-content;
-    
+
 }
-.r-0{
+
+.r-0 {
     right: 0;
 }
 
-.bor{
+.bor {
     border: 10px solid #eee;
     border-radius: 50%;
     background-color: #eee;
@@ -391,6 +473,7 @@ a.text-light:hover {
     justify-content: center;
     margin-bottom: 50px;
 }
+
 .list-icon ul li {
     list-style: none;
     display: inline-block;
@@ -403,15 +486,55 @@ a.text-light:hover {
     margin-top: 50PX;
     transition: 0.5s background-color;
 }
-.list-icon ul li:hover{
+
+.list-icon ul li:hover {
     background-color: var(--color-parper);
     color: white;
 }
+
 .list-icon i {
     display: flex;
     justify-content: center;
 }
+
 .list-icon ul li span {
     text-align: center;
 }
+
 /* End  icon tecno  */
+
+/* Start section 2 */
+.text-green {
+    color: #00FF66;
+}
+
+.meex {
+    max-width: 400px;
+}
+
+.bg-green {
+    background-color: #00FF66;
+}
+
+.aside-right-6 {
+    background-image: url(../image/img-10.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.dete {
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px 0;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    flex-flow: column;
+}
+
+.fs {
+    font-size: 12px;
+}
+
+/* End section 2 */
