@@ -133,7 +133,11 @@ ul li {
 .section div .img-5,
 .section-2 .img-6,
 .section-3 .img-7,
-.section-4 .img-8 {
+.section-4 .img-8,
+.section .img-11,
+.section-2 .img-12,
+.section-3 .img-13,
+.section-4 .img-14 {
     margin-bottom: 25px;
     max-width: 100%;
     height: 306px;
@@ -247,6 +251,38 @@ ul li {
     background-position: center;
 }
 
+.img-11 {
+    background-image: url(../image/img-11-2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.img-12 {
+    background-image: url(../image/img-12-2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.img-13 {
+    background-image: url(../image/img-13-2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 25px;
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+
+
 /* Ensure the container is positioned relatively */
 
 
@@ -309,6 +345,23 @@ ul li {
 }
 
 .section-4 .img-4:hover .pos {
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    left: 0;
+    height: 12%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+
+
+}
+
+.section .img-5:hover .pos,
+.section-2 .img-6:hover .pos,
+.section-3 .img-7:hover .pos,
+.section-4 .img-8:hover .pos {
     position: absolute;
     bottom: 0;
     max-width: 100%;
@@ -508,9 +561,7 @@ a.text-light:hover {
     color: #00FF66;
 }
 
-.meex {
-    max-width: 400px;
-}
+
 
 .bg-green {
     background-color: #00FF66;
@@ -522,6 +573,8 @@ a.text-light:hover {
     background-position-x: right;
     background-position-y: bottom;
 }
+
+
 
 .dete {
     text-align: center;
@@ -538,3 +591,56 @@ a.text-light:hover {
 }
 
 /* End section 2 */
+.color-footer-card {
+    height: 15px;
+    display: flex;
+    margin-left: 4px;
+}
+
+.color-one {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #184A48;
+    border: 1px solid white;
+    outline: 2px solid black;
+    margin-right: 8px;
+
+    display: block;
+}
+
+.color-two {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #DB4444;
+    border: 1px solid #DB4444;
+    outline: 2px solid #DB4444;
+    margin-left: 4px;
+
+    display: block;
+}
+
+.color-three {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #EEFF61;
+    border: 1px solid white;
+    outline: 2px solid black;
+    margin-right: 8px;
+
+    display: block;
+}
+
+.color-four {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid white;
+    outline: 2px solid black;
+    margin-right: 8px;
+
+    display: block;
+}
